@@ -5,21 +5,24 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Getter
 @Setter
 @AllArgsConstructor
-@NoArgsConstructor
+
 @Document(collection = "user")
 public class User {
     @Id
     private String user_id;
     @Field("name")
     private String user_name;
+    @Indexed(unique = true)
     @Field("email")
     private String user_email;
     @Field("password")
@@ -30,4 +33,12 @@ public class User {
 
     private int main_address;
     private int main_payment;
+    public User(){
+        this.address_list = new ArrayList<>();
+        this.payment_list = new ArrayList<>();
+        this.main_payment = 0;
+        this.main_address = 0;
+
+    }
 }
+
