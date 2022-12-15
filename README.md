@@ -10,3 +10,30 @@ testing . Here behavioural and performance testing .
 <h3> Tech Stack </h3>
 
 ![Screenshot](tech.png)
+
+
+<table>
+  <tr>
+      <th>Area</th>
+      <th>technology</th>
+  </tr>
+    <tr>
+      <td>Front-End</td>
+      <td>React,Bootstrap,HTML5,CSS3</td>
+  </tr>
+    <tr>
+      <td>Back-End</td>
+      <td>SpringBoot</td>
+  </tr>
+      <tr>
+      <td>API-Testing</td>
+      <td>Postman</td>
+  </tr>
+    </tr>
+      <tr>
+      <td>DataBase</td>
+      <td>MongoDb</td>
+  </tr>
+  </table>
+
+
