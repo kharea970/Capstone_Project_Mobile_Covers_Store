@@ -103,11 +103,11 @@ testing . Here behavioural and performance testing .
 ![a2](https://user-images.githubusercontent.com/109665445/207797088-074db170-d9c2-48b2-baef-9c18405b479c.png)
 
 <h3>Steps for Project Execution :</h3>
-<h5>
-cd Frontend
-npm install
-npm start
-</h5>
+
+cd Frontend<br>
+npm install<br>
+npm start<br>
+
 
 
 
