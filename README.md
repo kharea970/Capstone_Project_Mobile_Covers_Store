@@ -108,6 +108,17 @@ cd Frontend<br>
 npm install<br>
 npm start<br>
 
+<h3>Setting up database :</h3>
+create database final_project<br>
+create collection user<br>
+run command -> mongoimport --db final_project --collection user --file user.json <br>
+create collection review<br>
+run command -> mongoimport --db final_project --collection review --file review.json <br>
+create collection mobiles<br>
+run command -> mongoimport --db final_project --collection mobiles --file mobiles.json <br>
+create collection order<br>
+run command -> mongoimport --db final_project --collection order --file order.json <br>
+
 
 
 
