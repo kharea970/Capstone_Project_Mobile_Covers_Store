@@ -1,0 +1,1 @@
+{"_id":{"$oid":"638723058cb524299dac20a7"},"name":"Ashish","email":"ashish@gmail.com","password":"ashish","address_list":[],"payment_list":[],"main_address":0,"main_payment":0,"_class":"com.example.mobile_covers_backend.models.User"}
